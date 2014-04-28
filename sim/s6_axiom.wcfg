@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/rifat/Projects/apertus/codes/tdms_trials/herbert_encoder/par/lalalalal/tb_s6_axiom_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="sub_module_components" />
+            <top_module name="tb_s6_axiom" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="207" />
+   <wave_markers>
+      <marker time="10796066000" label="" />
+      <marker time="10868000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_s6_axiom/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/enc_pipelined" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/enc_pipe_verilog" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_pipe_verilog[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_pipe_verilog[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/enc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/board_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">board_clk</obj_property>
+      <obj_property name="ObjectShortName">board_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider5" type="divider">
+      <obj_property name="label">top_level</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_rst</obj_property>
+      <obj_property name="ObjectShortName">i_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/o_pipe_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_pipe_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">o_pipe_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/o_single_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_single_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">o_single_data[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/lval" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lval</obj_property>
+      <obj_property name="ObjectShortName">lval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/fval" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fval</obj_property>
+      <obj_property name="ObjectShortName">fval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/pix" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pix[39:0]</obj_property>
+      <obj_property name="ObjectShortName">pix[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/enc_pipelined" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/enc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/board_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">board_clk</obj_property>
+      <obj_property name="ObjectShortName">board_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider17" type="divider">
+      <obj_property name="label">ENC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/ain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ain[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ain[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/cin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cin[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cin[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/vde" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vde</obj_property>
+      <obj_property name="ObjectShortName">vde</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/ade" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ade</obj_property>
+      <obj_property name="ObjectShortName">ade</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/enc_or" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_or[8:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_or[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/enc_nor" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_nor[8:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_nor[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/word" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/set" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tdms/disparity" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">disparity</obj_property>
+      <obj_property name="ObjectShortName">disparity</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider32" type="divider">
+      <obj_property name="label">enc_pipelined</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_audio" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_audio[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_audio[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_cntrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_cntrl[1:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cntrl[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_vid_de" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_vid_de</obj_property>
+      <obj_property name="ObjectShortName">i_vid_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_aud_de" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_aud_de</obj_property>
+      <obj_property name="ObjectShortName">i_aud_de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/o_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">o_data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word7_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word7_d1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">word7_d1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word7_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word7_d2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">word7_d2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word7_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word7_d3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">word7_d3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word7_d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word7_d4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">word7_d4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word7_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word7_d5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">word7_d5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_8a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_8a[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_8a[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_8b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_8b[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_8b[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_8a_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_8a_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_8a_r[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_8b_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_8b_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_8b_r[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_din[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_din[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_din_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_din_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_din_r[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select1</obj_property>
+      <obj_property name="ObjectShortName">select1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select1_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select1_r</obj_property>
+      <obj_property name="ObjectShortName">select1_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_a[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_a[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_b[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_b[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8[8:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d2[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d3[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d4[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d5[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d5[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d6[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d6[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d7[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d7[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d8[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d8[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d9[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d9[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d10[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d10[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_9a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_9a[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_9a[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_9b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_9b[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_9b[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_9a_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_9a_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_9a_r[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_9b_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_9b_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_9b_r[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_word8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_word8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_word8[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_word8_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_word8_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_word8_d1[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_word8_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_word8_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_word8_d2[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum0_word8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum0_word8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum0_word8[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum0_word8_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum0_word8_r[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum0_word8_r[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_word8_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_word8_d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_word8_d3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum0_word8_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum0_word8_d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum0_word8_d3[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum1_word8_d3_clone" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1_word8_d3_clone[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum1_word8_d3_clone[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/sum0_word8_d3_clone" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum0_word8_d3_clone[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum0_word8_d3_clone[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_greater_than_zeros" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_greater_than_zeros</obj_property>
+      <obj_property name="ObjectShortName">ones_greater_than_zeros</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_equal_to_zeros" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_equal_to_zeros</obj_property>
+      <obj_property name="ObjectShortName">ones_equal_to_zeros</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_greater_than_zeros_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_greater_than_zeros_d1</obj_property>
+      <obj_property name="ObjectShortName">ones_greater_than_zeros_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_equal_to_zeros_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_equal_to_zeros_d1</obj_property>
+      <obj_property name="ObjectShortName">ones_equal_to_zeros_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_greater_than_zeros_d2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_greater_than_zeros_d2</obj_property>
+      <obj_property name="ObjectShortName">ones_greater_than_zeros_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/ones_equal_to_zeros_d2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ones_equal_to_zeros_d2</obj_property>
+      <obj_property name="ObjectShortName">ones_equal_to_zeros_d2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/excess_ones" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excess_ones[4:0]</obj_property>
+      <obj_property name="ObjectShortName">excess_ones[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/excess_zeros" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excess_zeros[4:0]</obj_property>
+      <obj_property name="ObjectShortName">excess_zeros[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/mult2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mult2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mult2[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/mult2_cmpl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mult2_cmpl[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mult2_cmpl[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/excess_ones_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excess_ones_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">excess_ones_r[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/excess_zeros_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">excess_zeros_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">excess_zeros_r[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/mult2_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mult2_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mult2_r[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/mult2_cmpl_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mult2_cmpl_r[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mult2_cmpl_r[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_prea" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_prea[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_prea[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_preb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_preb[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_preb[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_prec" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_prec[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_prec[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_pred" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_pred[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_pred[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_prea_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_prea_r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_prea_r[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_preb_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_preb_r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_preb_r[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_prec_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_prec_r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_prec_r[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_pred_r" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_pred_r[5:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_pred_r[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/zero_dc_bias" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero_dc_bias</obj_property>
+      <obj_property name="ObjectShortName">zero_dc_bias</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/positive_dc_bias" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">positive_dc_bias</obj_property>
+      <obj_property name="ObjectShortName">positive_dc_bias</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/negative_dc_bias" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">negative_dc_bias</obj_property>
+      <obj_property name="ObjectShortName">negative_dc_bias</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/i_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d1[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d2[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d3[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d4[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d5[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d5[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d6[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d6[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d7[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d7[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d8[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d8[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d9[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d9[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8_d10[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8_d10[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus193" type="vbus" db_ref_id="1">
+      <obj_property name="label">word8_d97bit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[7]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[6]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[5]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[4]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[3]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[2]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8_d9[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">word8_d9[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_a[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_a[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_b[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_b[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_c[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_c[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias_d[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias_d[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/dc_bias" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc_bias[6:0]</obj_property>
+      <obj_property name="ObjectShortName">dc_bias[6:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select2</obj_property>
+      <obj_property name="ObjectShortName">select2</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select3</obj_property>
+      <obj_property name="ObjectShortName">select3</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select1_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select1_r</obj_property>
+      <obj_property name="ObjectShortName">select1_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select2_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select2_r</obj_property>
+      <obj_property name="ObjectShortName">select2_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/select3_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select3_r</obj_property>
+      <obj_property name="ObjectShortName">select3_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word8[8:0]</obj_property>
+      <obj_property name="ObjectShortName">word8[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word9_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word9_a[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word9_a[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word9_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word9_b[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word9_b[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word9_c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word9_c[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word9_c[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word9_d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word9_d[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word9_d[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/word9_vid" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">word9_vid[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word9_vid[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/video" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">video[9:0]</obj_property>
+      <obj_property name="ObjectShortName">video[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[9:0]</obj_property>
+      <obj_property name="ObjectShortName">data[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/vid_de[15]" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">[15]</obj_property>
+      <obj_property name="ObjectShortName">vid_de[15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/vid_de" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vid_de[17:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_de[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/enc_pipelined" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc_pipelined[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/enc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enc[9:0]</obj_property>
+      <obj_property name="ObjectShortName">enc[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio[9:0]</obj_property>
+      <obj_property name="ObjectShortName">audio[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/aud_de" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aud_de[17:0]</obj_property>
+      <obj_property name="ObjectShortName">aud_de[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d4[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d4[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d5[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d5[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d6[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d7[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d7[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d8[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d8[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d9[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d9[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d10[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d11[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d11[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d12[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d12[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d13[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d13[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d14[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d14[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d15[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d15[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_d16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_d16[3:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_d16[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d3[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d4[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d4[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d5[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d5[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d6[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d6[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d7[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d7[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d8[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d8[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d9[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d9[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d10[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d10[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d11" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d11[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d11[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d12" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d12[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d12[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d13" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d13[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d13[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d14" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d14[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d14[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d15" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d15[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d15[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_d16" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_d16[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_d16[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio_9[9:0]</obj_property>
+      <obj_property name="ObjectShortName">audio_9[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/audio" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio[9:0]</obj_property>
+      <obj_property name="ObjectShortName">audio[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/cntrl_9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntrl_9[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cntrl_9[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_enc_tmds_pipe/eight" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eight[3:0]</obj_property>
+      <obj_property name="ObjectShortName">eight[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">VERILOG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/clkin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/rstin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rstin</obj_property>
+      <obj_property name="ObjectShortName">rstin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/din" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0</obj_property>
+      <obj_property name="ObjectShortName">c0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1</obj_property>
+      <obj_property name="ObjectShortName">c1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/de" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">de</obj_property>
+      <obj_property name="ObjectShortName">de</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/decision1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">decision1</obj_property>
+      <obj_property name="ObjectShortName">decision1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/q_m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_m[8:0]</obj_property>
+      <obj_property name="ObjectShortName">q_m[8:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/decision2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">decision2</obj_property>
+      <obj_property name="ObjectShortName">decision2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/decision3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">decision3</obj_property>
+      <obj_property name="ObjectShortName">decision3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/n1d" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n1d[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n1d[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/din_q" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">din_q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din_q[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/n1q_m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n1q_m[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n1q_m[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/n0q_m" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">n0q_m[3:0]</obj_property>
+      <obj_property name="ObjectShortName">n0q_m[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/cnt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/de_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">de_q</obj_property>
+      <obj_property name="ObjectShortName">de_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/de_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">de_reg</obj_property>
+      <obj_property name="ObjectShortName">de_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c0_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0_q</obj_property>
+      <obj_property name="ObjectShortName">c0_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c1_q" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1_q</obj_property>
+      <obj_property name="ObjectShortName">c1_q</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c0_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0_reg</obj_property>
+      <obj_property name="ObjectShortName">c0_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/c1_reg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1_reg</obj_property>
+      <obj_property name="ObjectShortName">c1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/q_m_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_m_reg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">q_m_reg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/CTRLTOKEN0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CTRLTOKEN0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRLTOKEN0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/CTRLTOKEN1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CTRLTOKEN1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRLTOKEN1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/CTRLTOKEN2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CTRLTOKEN2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRLTOKEN2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_s6_axiom/i_top_encoder_tst/i_encode_verilog/CTRLTOKEN3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CTRLTOKEN3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CTRLTOKEN3[31:0]</obj_property>
+   </wvobject>
+</wave_config>

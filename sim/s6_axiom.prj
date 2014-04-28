@@ -1,0 +1,15 @@
+vhdl work ../rtl/components.vhd
+vhdl work ../rtl/camera.vhd
+vhdl work ../rtl/encoder.vhd
+vhdl work ../rtl/encoder_pipe.vhd
+vhdl work ../rtl/lfsr.vhd
+vhdl work ../rtl/lvalid_fvalid_gen.vhd
+vhdl work ../rtl/top_encoder_tst.vhd
+verilog work ../rtl/encode.v
+
+vhdl  work  ./tb_s6_axiom.vhd
+
+
+
+
+
